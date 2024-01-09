@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#container {
+    margin: 20px;
+    max-width: 600px;
+    width: 100%;
+    display: center;
+}
+
+input {
+    display: block;
+    padding: 4px;
+    margin: 4px;
+    width: 200px;
+}
+
+button {
+    background-color: rgb(12, 161, 79);
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    width: 215px ;
+    height: 30px;
+}
+
+button:hover {
+    background-color: rgb(5, 140, 50);
+}
+
+.mensagem-sucesso {
+    background-color: rgb(5, 140, 50);
+    color: #fff;
+    font-size: 16px;
+    margin-top: 5px;
+    width: 215px;
+    height: 40px;
+    display: none;
+}
